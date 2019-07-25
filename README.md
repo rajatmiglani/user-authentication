@@ -17,6 +17,8 @@ The next step is to resize the image and same in the above manner you have to me
 
 `python3 resize.ipynb`
 
+Don't forget to read POINTS TO NOTE before going forward(mentioned in the end)
+
 The next step is to create a list of locations of these individual images and that can be done by the imagelistextract.ipynb. tit will extract all the locations and will store it in a .txt named as imagelist.txt which will be used in the further process.
 
 `folders = glob.glob('../test_cases/subject1')`
@@ -43,7 +45,8 @@ This file will calculate the euclidean distance and output whether its ia n veri
 
 `python3 readbinary.ipynb`
 
-POINTS TO NOTE
+POINTS TO NOTE:-
+
 1) For the ID-Selfie dataset, make sure all the foldesr in such a structure, where ID images and selfies start with "A" and "B", respectively :
 
 `Subject1
@@ -56,3 +59,6 @@ Subject2
 ...`
 
 2) When running the extract features make sure that only location of images of single subject is present in the imagelist.txt file as it will be smooth way to compare each image of that subject with another one. The subject not verified can be verfieed manually lately.
+3) To dataset used to finetune the network can be found at https://github.com/rupeego/lfw and at https://github.com/rupeego/lfw2
+this data is already converted and cleaned according to the network requirements.
+4) To start it from the basic please refer to https://github.com/seasonSH/DocFace
