@@ -8,16 +8,19 @@ After then you are almost ready to run the code.
 First step is to run the extract face coloured.ipynb which will extract the face and will save in the directory mentioned in the code. so please chnage the directory input and save loctaion to take the input and save it.
 
 `folders = glob.glob('~/rupeego/images/*')`
+
 `python3 extract-face-coloured.ipynb`
 
 The next step is to resize the image and same in the above manner you have to metion the directory within the code to refer to the place where all extracted face images are saved and the file you have to run is resize.ipynb
 
 `folders = glob.glob('/home/rupeego/images/*')`
+
 `python3 resize.ipynb`
 
 The next step is to create a list of locations of these individual images and that can be done by the imagelistextract.ipynb. tit will extract all the locations and will store it in a .txt named as imagelist.txt which will be used in the further process.
 
-`folders = glob.glob('../test_cases/2')`
+`folders = glob.glob('../test_cases/subject1')`
+
 `python3 imagelistextract.ipynb`
 
 The next part is to extract features from these faces in order to compare it with each other and the file is places under src/extract_features.py
@@ -44,11 +47,17 @@ POINTS TO NOTE
 1) For the ID-Selfie dataset, make sure all the foldesr in such a structure, where ID images and selfies start with "A" and "B", respectively :
 
 `Subject1
+
     A001.jpg
+
     B001.jpg
+    
     B002.jpg
+
 Subject2
+    
     A001.jpg
+    
     B001.jpg
 ...`
 
