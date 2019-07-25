@@ -1,0 +1,6 @@
+~/rajat/test_cases/1/A001.jpg
+~/rajat/test_cases/1/B001.jpg
+~/rajat/test_cases/1/B002.jpg
+~/rajat/test_cases/2/A001.jpg
+~/rajat/test_cases/2/A002.jpg
+~/rajat/test_cases/2/B001.jpg
