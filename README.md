@@ -6,6 +6,7 @@ It's a fully trained model with its weights file uploaded on google drive.
 You have to download it and place it under a new folder named as 'log' directly on the main directory and a subfolder inside the log folder named 'faceres_finetuned'.
 After then you are almost ready to run the code.
 First step is to run the extract face coloured.ipynb which will extract the face and will save in the directory mentioned in the code. so please chnage the directory input and save loctaion to take the input and save it.
+
 `folders = glob.glob('~/rupeego/images/*')`
 `python3 extract-face-coloured.ipynb`
 
