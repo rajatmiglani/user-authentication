@@ -60,5 +60,5 @@ Subject2
 
 2) When running the extract features make sure that only location of images of single subject is present in the imagelist.txt file as it will be smooth way to compare each image of that subject with another one. The subject not verified can be verfieed manually lately.
 3) To dataset used to finetune the network can be found at https://github.com/rupeego/lfw and at https://github.com/rupeego/lfw2
-this data is already converted and cleaned according to the network requirements.
+this data is already converted and cleaned according to the network requirements. Combine these before using them.
 4) To start it from the basic please refer to https://github.com/seasonSH/DocFace
