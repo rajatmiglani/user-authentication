@@ -23,9 +23,9 @@ The next step is to create a list of locations of these individual images and th
 The next part is to extract features from these faces in order to compare it with each other and the file is places under src/extract_features.py
 The above file requires 3 arguments and can be passed in this manner
 
-`python3 src/extract_features.py \
---model_dir /path/to/pretrained/model/dir \
---image_list /path/to/imagelist.txt \
+`python3 src/extract_features.py 
+--model_dir /path/to/pretrained/model/dir 
+--image_list /path/to/imagelist.txt 
 --output /path/to/output.npy`
 
 --model_dir is placed under log/faceres_finetune/nameof the folder
@@ -33,8 +33,11 @@ The above file requires 3 arguments and can be passed in this manner
 --output.npy the location where you want to store the output fileand it is a numpy file.
 
 The next step is to run the output.npy file generated in the above step. You have to mention output.npy path in the code to give access to the file.
+
 `data=np.load('../output.npy')`
+
 This file will calculate the euclidean distance and output whether its ia n verified customer or not.
+
 `python3 readbinary.ipynb`
 
 POINTS TO NOTE
