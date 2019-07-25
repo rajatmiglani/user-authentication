@@ -1,4 +1,4 @@
-# user-authentication
+# User-authentication
 The project is based in the Docface+ paper and is implementaion of selfie to id matching. 
 It's a modified version if the Docface that is made to use as per our requirement.
 It's a fully trained model with its weights file uploaded on google drive.
