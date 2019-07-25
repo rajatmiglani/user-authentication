@@ -11,15 +11,18 @@ First step is to run the extract face coloured.ipynb which will extract the face
 `python3 extract-face-coloured.ipynb`
 
 The next step is to resize the image and same in the above manner you have to metion the directory within the code to refer to the place where all extracted face images are saved and the file you have to run is resize.ipynb
+
 `folders = glob.glob('/home/rupeego/images/*')`
 `python3 resize.ipynb`
 
 The next step is to create a list of locations of these individual images and that can be done by the imagelistextract.ipynb. tit will extract all the locations and will store it in a .txt named as imagelist.txt which will be used in the further process.
+
 `folders = glob.glob('../test_cases/2')`
 `python3 imagelistextract.ipynb`
 
 The next part is to extract features from these faces in order to compare it with each other and the file is places under src/extract_features.py
 The above file requires 3 arguments and can be passed in this manner
+
 `python3 src/extract_features.py \
 --model_dir /path/to/pretrained/model/dir \
 --image_list /path/to/imagelist.txt \
