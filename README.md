@@ -47,15 +47,12 @@ POINTS TO NOTE
 1) For the ID-Selfie dataset, make sure all the foldesr in such a structure, where ID images and selfies start with "A" and "B", respectively :
 
 `Subject1
-
     A001.jpg
 
     B001.jpg
     
     B002.jpg
-
-Subject2
-    
+Subject2 
     A001.jpg
     
     B001.jpg
