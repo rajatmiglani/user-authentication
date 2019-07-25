@@ -1,4 +1,7 @@
+python3
 scipy
 numpy
 Pillow
-
+tensorflow-gpu
+"To setup tensorflow-gpu you can refer to the document https://docs.google.com/document/d/1nWz--OWHSqlmE97mcIShB_JrRI4xz9LqRS_PvwX8_Lk/edit?usp=sharing "
+And please make sure to do version comaptability of the foloowing libraries with each other
