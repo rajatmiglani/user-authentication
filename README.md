@@ -48,13 +48,10 @@ POINTS TO NOTE
 
 `Subject1
     A001.jpg
-
     B001.jpg
-    
     B002.jpg
 Subject2 
     A001.jpg
-    
     B001.jpg
 ...`
 
